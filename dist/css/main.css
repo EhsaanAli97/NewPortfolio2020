@@ -180,6 +180,74 @@ main {
     padding: 0.5rem;
     border-bottom: 5px solid #eece1a; }
 
+.projects {
+  display: grid;
+  grid-gap: 0.9rem;
+  grid-template-columns: repeat(3, 1fr); }
+  .projects img {
+    width: 100%;
+    border: 3px solid #fff; }
+    .projects img:hover {
+      opacity: 0.5;
+      border-color: #eece1a;
+      transition: all 0.5s ease-out; }
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 1.5rem;
+    border: 3px solid #fff;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease-out; }
+    .boxes div:hover {
+      padding: 0.5rem 1.5rem;
+      background: #eece1a;
+      color: #000; }
+      .boxes div:hover span {
+        color: #000; }
+
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+  .contact-content .contact-form {
+    max-width: 600px; }
+    .contact-content .contact-form .txt-form {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      margin: 10px 0;
+      border: 2px;
+      background: #494949;
+      padding: 25px 40px; }
+      .contact-content .contact-form .txt-form::placeholder {
+        color: #fff;
+        opacity: 0.6; }
+      .contact-content .contact-form .txt-form:focus {
+        box-shadow: 0 0 5px 2px #eece1a;
+        outline: none; }
+      .contact-content .contact-form .txt-form .txtarea {
+        resize: none;
+        height: 300px;
+        width: 10px; }
+    .contact-content .contact-form .send-btn {
+      color: #fff;
+      float: right;
+      height: 50px;
+      width: 175px;
+      background: transparent;
+      border: 1px solid #fff; }
+      .contact-content .contact-form .send-btn:hover {
+        background: #eece1a;
+        cursor: pointer;
+        transition: all 0.5s ease-out; }
+
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;

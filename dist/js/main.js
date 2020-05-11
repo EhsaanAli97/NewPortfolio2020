@@ -33,3 +33,34 @@ function toggleMenu() {
         showMenu = false;
     }
 }
+
+function validation() {
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var message = document.getElementById('message').value;
+    var errorMessage = document.getElementById('errorMessage');
+    var text;
+
+    errorMessage.style.padding = '1.2rem';
+    errorMessage.style.marginTop = '2rem';
+    errorMessage.style.fontWeight = 'bold';
+    errorMessage.style.background = '#e20f0f';
+    errorMessage.style.textAlign = 'center';
+
+    if (name.length < 2) {
+        text = 'Please Enter a Valid Name';
+        errorMessage.innerHTML = text;
+        return false;
+    } else if (email.length < 5 && !email.includes('@') && !email.includes('.')) {
+        text = 'Please Enter a Valid Email Address';
+        errorMessage.innerHTML = text;
+        return false;
+    } else if (message.length < 2) {
+        text = 'Please Enter More Than 2 Characters';
+        errorMessage.innerHTML = text;
+        return false;
+    } else {
+        errorMessage.hidden = true;
+        return true;
+    }
+}
