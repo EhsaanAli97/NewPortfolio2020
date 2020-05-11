@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/") no-repeat;
+      background: url("../img/portraitSm.jpg") no-repeat;
       background-size: contain;
       border-radius: 50%;
       border: 3px solid #eece1a; }
@@ -169,7 +169,7 @@ main {
     margin: auto; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.5rem; }
+    font-size: 1.3rem; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -322,4 +322,8 @@ main {
   .boxes div {
     font-size: 1rem; }
   .contact-content .contact-form .send-btn {
-    width: 100%; } }
+    width: 100%; }
+  .about-info .bio {
+    font-size: 0.9rem; }
+  .about-info .bio-image {
+    width: 224px; } }
