@@ -3,10 +3,8 @@
 	"version": "1.0.0",
 	"description": "Responsive Portfolio",
 	"main": "index.js",
-	"homepage": "https://EhsaanAli97.github.io/NewPortfolio2020",
 	"scripts": {
-		"sass": "node-sass -w scss/ -o dist/css --recursive",
-		"build": "gh-pages -d dist"
+		"sass": "node-sass -w scss/ -o dist/css --recursive"
 	},
 	"author": "Ehsaan Ali",
 	"license": "ISC",
