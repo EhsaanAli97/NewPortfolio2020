@@ -1,14 +1,15 @@
 {
-  "name": "portfolio2020sass",
-  "version": "1.0.0",
-  "description": "Responsive Portfolio",
-  "main": "index.js",
-  "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css --recursive"
-  },
-  "author": "Ehsaan Ali",
-  "license": "ISC",
-  "dependencies": {
-    "node-sass": "^4.14.1"
-  }
+	"name": "portfolio2020sass",
+	"version": "1.0.0",
+	"description": "Responsive Portfolio",
+	"main": "index.js",
+	"scripts": {
+		"sass": "node-sass -w scss/ -o dist/css --recursive",
+		"build": "-d dist"
+	},
+	"author": "Ehsaan Ali",
+	"license": "ISC",
+	"dependencies": {
+		"node-sass": "^4.14.1"
+	}
 }
