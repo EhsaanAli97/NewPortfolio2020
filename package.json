@@ -3,13 +3,16 @@
 	"version": "1.0.0",
 	"description": "Responsive Portfolio",
 	"main": "index.js",
+	"homepage": "https://EhsaanAli97.github.io/NewPortfolio2020",
 	"scripts": {
 		"sass": "node-sass -w scss/ -o dist/css --recursive",
-		"build": "npm run sass"
+		"build": "gh-pages -d dist"
 	},
 	"author": "Ehsaan Ali",
 	"license": "ISC",
 	"dependencies": {
+		"gh-pages": "^2.2.0",
+		"ghpages": "0.0.10",
 		"node-sass": "^4.14.1"
 	}
 }
