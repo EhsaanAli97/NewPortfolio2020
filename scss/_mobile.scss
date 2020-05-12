@@ -10,6 +10,14 @@
     .projects {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .about-info {
+        grid-template-areas:
+            "bio-image"
+            "bio";
+
+        grid-template-columns: 1fr;
+    }
 }
 
 //Tablets and Small Laptops
@@ -58,10 +66,7 @@
     .about-info {
         grid-template-areas:
             "bio-image"
-            "bio"
-            "job1"
-            "job2"
-            "job3";
+            "bio";
 
         grid-template-columns: 1fr;
     }
@@ -79,6 +84,15 @@
 
     .projects {
         grid-template-columns: 1fr;
+    }
+
+    .modal-content .modal-info {
+        margin-top: -1rem;
+
+        p {
+            font-size: 0.8rem;
+            text-align: start;
+        }
     }
 
     .boxes div {
