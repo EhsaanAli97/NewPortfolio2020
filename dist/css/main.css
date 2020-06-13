@@ -196,7 +196,9 @@ main {
   .projects-btn {
     width: 100%;
     height: 50px;
-    text-align: start; }
+    text-align: start;
+    font-weight: 600;
+    font-size: 1rem; }
 
 .modal {
   display: none;
@@ -320,11 +322,9 @@ main {
 
 @media screen and (min-width: 1171px) {
   .projects {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: repeat(5, 1fr); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
-  .projects {
-    grid-template-columns: repeat(3, 1fr); }
   .about-info {
     grid-template-areas: "bio-image" "bio";
     grid-template-columns: 1fr; } }
