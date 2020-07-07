@@ -1,316 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>View My Work</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>View My Work</title>
+		<script
+			src="https://kit.fontawesome.com/98ee59fc20.js"
+			crossorigin="anonymous"
+		></script>
 
-    <script src="https://kit.fontawesome.com/98ee59fc20.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
 
-    <link rel="stylesheet" href="css/main.css">
-</head>
+	<body>
+		<header>
+			<div class="menu-btn">
+				<div class="btn-line"></div>
+				<div class="btn-line"></div>
+				<div class="btn-line"></div>
+			</div>
 
-<body>
+			<nav class="menu">
+				<div class="menu-branding">
+					<div class="portrait"></div>
+				</div>
 
-    <header>
-        <div class="menu-btn">
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-        </div>
+				<ul class="menu-nav">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link"> Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="about.html" class="nav-link"> About Me</a>
+					</li>
+					<li class="nav-item current">
+						<a href="work.html" class="nav-link"> My Work</a>
+					</li>
+					<li class="nav-item">
+						<a href="contact.html" class="nav-link"> How To Reach Me</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-        <nav class="menu">
-            <div class="menu-branding">
-                <div class="portrait">
+		<main id="work">
+			<h1 class="lg-heading">My <span class="text-secondary">Work </span></h1>
+			<h2 class="sm-heading">
+				Check out some of my projects...
+			</h2>
 
-                </div>
-            </div>
+			<div class="projects">
+				<div class="item">
+					<a href="https://ehsaanali.co.uk/" target="_blank">
+						<img src="img/projects/Portfolio.jpg" alt="Project 1" />
+					</a>
 
-            <ul class="menu-nav">
-                <li class="nav-item ">
-                    <a href="index.html" class="nav-link">
-                        Home</a>
-                </li>
-                <li class="nav-item ">
-                    <a href="about.html" class="nav-link">
-                        About Me</a>
-                </li>
-                <li class="nav-item current">
-                    <a href="work.html" class="nav-link">
-                        My Work</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html" class="nav-link">
-                        How To Reach Me</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+					<button href="#myModal1" class="btn-light modal-button projects-btn">
+						<i class="fas fa-eye"></i> Project
+					</button>
 
-    <main id="work">
-        <h1 class="lg-heading">
-            My <span class="text-secondary">Work </span>
-        </h1>
-        <h2 class="sm-heading">
-            Check out some of my projects...
-        </h2>
+					<a
+						href="https://github.com/EhsaanAli97/Portfolio2020"
+						target="_blank"
+						class="btn-dark"
+					>
+						<i class="fab fa-github"></i> Github
+					</a>
+				</div>
 
-        <div class="projects">
-            <div class="item">
-                <a href="https://ehsaanali.co.uk/" target="_blank">
-                    <img src="img/projects/Portfolio.jpg" alt="Project 1">
-                </a>
+				<div class="item">
+					<a href="https://truburger.netlify.app/" target="_blank">
+						<img src="img/projects/TruBurger.jpg" alt="Project 2" />
+					</a>
 
-                <button href="#myModal1" class="btn-light modal-button projects-btn">
-                    <i class="fas fa-eye"></i> Project
-                </button>
+					<button href="#myModal2" class="btn-light modal-button projects-btn">
+						<i class="fas fa-eye"></i> Project
+					</button>
 
-                <a href="https://github.com/EhsaanAli97/Portfolio2020" target="_blank" class="btn-dark">
-                    <i class="fab fa-github"></i> Github
-                </a>
-            </div>
+					<a
+						href="https://github.com/EhsaanAli97/TruBurger"
+						target="_blank"
+						class="btn-dark"
+					>
+						<i class="fab fa-github"></i> Github
+					</a>
+				</div>
 
-            <div class="item">
-                <a href="https://truburger.netlify.app/" target="_blank">
-                    <img src="img/projects/TruBurger.jpg" alt="Project 2">
-                </a>
+				<div class="item">
+					<a href="https://covid-19-tracked.netlify.app/" target="_blank">
+						<img src="img/projects/Covid19.jpg" alt="Project 3" />
+					</a>
 
-                <button href="#myModal2" class="btn-light modal-button projects-btn">
-                    <i class="fas fa-eye"></i> Project
-                </button>
+					<button href="#myModal3" class="btn-light modal-button projects-btn">
+						<i class="fas fa-eye"></i> Project
+					</button>
 
-                <a href="https://github.com/EhsaanAli97/TruBurger" target="_blank" class="btn-dark">
-                    <i class="fab fa-github"></i> Github
-                </a>
-            </div>
+					<a
+						href="https://github.com/EhsaanAli97/COVID19-APP"
+						target="_blank"
+						class="btn-dark"
+					>
+						<i class="fab fa-github"></i> Github
+					</a>
+				</div>
 
-            <!-- 
-            <div class="item">
-                <a href="https://heavenlydates.netlify.app/" target="_blank">
-                    <img src="img/projects/HeavenlyDates.jpg" alt="Project 3">
-                </a>
+				<div class="item">
+					<a href="https://istream.netlify.app/" target="_blank">
+						<img src="img/projects/iStream.jpg" alt="Project 4" />
+					</a>
 
-                <button href="#myModal3" class="btn-light modal-button projects-btn">
-                    <i class="fas fa-eye"></i> Project
-                </button>
+					<button href="#myModal4" class="btn-light modal-button projects-btn">
+						<i class="fas fa-eye"></i> Project
+					</button>
 
-                <a href="https://github.com/EhsaanAli97/HeavenlyDates" target="_blank" class="btn-dark">
-                    <i class="fab fa-github"></i> Github
-                </a>
-            </div> -->
+					<a
+						href="https://github.com/EhsaanAli97/iStream-App"
+						target="_blank"
+						class="btn-dark"
+					>
+						<i class="fab fa-github"></i> Github
+					</a>
+				</div>
 
-            <div class="item">
-                <a href="https://covid-19-tracked.netlify.app/" target="_blank">
-                    <img src="img/projects/Covid19.jpg" alt="Project 4">
-                </a>
+				<div class="item">
+					<a href="https://beachresortworld.netlify.app/" target="_blank">
+						<img src="img/projects/BeachResort.png" alt="Project 5" />
+					</a>
 
-                <button href="#myModal4" class="btn-light modal-button projects-btn">
-                    <i class="fas fa-eye"></i> Project
-                </button>
+					<button href="#myModal5" class="btn-light modal-button projects-btn">
+						<i class="fas fa-eye"></i> Project
+					</button>
 
-                <a href="https://github.com/EhsaanAli97/COVID19-APP" target="_blank" class="btn-dark">
-                    <i class="fab fa-github"></i> Github
-                </a>
-            </div>
+					<a
+						href="https://github.com/EhsaanAli97/iStream-App"
+						target="_blank"
+						class="btn-dark"
+					>
+						<i class="fab fa-github"></i> Github
+					</a>
+				</div>
+			</div>
 
-            <div class="item">
-                <a href="https://istream.netlify.app/" target="_blank">
-                    <img src="img/projects/iStream.jpg" alt="Project 5">
-                </a>
+			<div id="myModal1" class="modal">
+				<div class="modal-content">
+					<div class="modal-info">
+						<div class="modal-header">
+							<span class="close">&times;</span>
+							<h2 class="text-secondary">Personal Portfolio:</h2>
+						</div>
 
-                <button href="#myModal5" class="btn-light modal-button projects-btn">
-                    <i class="fas fa-eye"></i> Project
-                </button>
+						<p>
+							This is my personal portfolio, which was designed and developed by
+							myself. I used various different tools to create the final
+							product. <br />
+							<br />
+							The technologies/languages used are as followed: <br />
+							- HTML. <br />
+							- CSS. <br />
+							- SCSS. <br />
+							- JavaScript. <br />
+							- Moqups (Online Mockup, Wireframe and UI Prototyping Tool).
+							<br />
+							- VSCode. <br />
+							- Photoshop. <br />
+							<br />
+							This website was developed after the completion of 'Responsive Web
+							Design', 'JavaScript Algorithms' and 'Front-End Libraries' units
+							in FreeCodeCamp. I decided to put my knowledge of HTML, CSS and
+							JavaScript to the test and my end product is the website you're
+							currently browsing. My portfolio website has recently been
+							updated, incorporating SASS workflow, allowing to keep things more
+							organised and creating style sheets much more efficiently.
+						</p>
+						<a href="https://ehsaanali.co.uk/" target="_blank">
+							<button type="button" class="btn-dark">View Website</button>
+						</a>
+					</div>
+				</div>
+			</div>
 
-                <a href="https://github.com/EhsaanAli97/iStream-App" target="_blank" class="btn-dark">
-                    <i class="fab fa-github"></i> Github
-                </a>
-            </div>
-        </div>
+			<div id="myModal2" class="modal">
+				<div class="modal-content">
+					<div class="modal-info">
+						<div class="modal-header">
+							<span class="close">&times;</span>
+							<h2 class="text-secondary">Tru Burger:</h2>
+						</div>
+						<p>
+							This is a website that I designed as a revamp for Tru Burger's
+							existing website. I chose this specific website because I often go
+							here to eat, familiar with the staff and etc; therefore, I felt
+							like it would be the most appropriate website to remake. <br />
+							<br />
+							The technologies/languages used are as followed: <br />
+							- HTML. <br />
+							- CSS. <br />
+							- JavaScript. <br />
+							- Moqups (Online Mockup, Wireframe and UI Prototyping Tool).
+							<br />
+							- VSCode. <br />
+							- Photoshop. <br />
+							<br />
+						</p>
+						<a href="https://truburger.netlify.app/" target="_blank">
+							<button type="button" class="btn-dark">View Website</button>
+						</a>
+					</div>
+				</div>
+			</div>
 
-        <div id="myModal1" class="modal">
-            <div class="modal-content">
-                <div class="modal-info">
-                    <div class="modal-header">
-                        <span class="close">&times;</span>
-                        <h2 class="text-secondary">Personal Portfolio: </h2>
-                    </div>
+			<div id="myModal3" class="modal">
+				<div class="modal-content">
+					<div class="modal-info">
+						<div class="modal-header">
+							<span class="close">&times;</span>
+							<h2 class="text-secondary">COVID-19 Tracker:</h2>
+						</div>
+						<p>
+							After completing the FreeCodeCamp units on React, I decided to
+							create an application in React which tracked all the Covid-19
+							cases, including: people infected, people recovered and deaths
+							occuring from covid-19. This app uses information from an api I
+							found online, converting it from JSON format to readable data,
+							which is displayed as a graph. Alot of features from React had
+							been used, such as React Hooks i.e. useState, useEffect and etc.
+							<br />
+							<br />
+							The technologies/languages used are as followed: <br />
+							- HTML. <br />
+							- CSS. <br />
+							- JavaScript. <br />
+							- JSX <br />
+							- React <br />
+							- MaterialUI <br />
+							- Axios <br />
+							- ChartJs <br />
+							- VSCode. <br />
+							<br />
+						</p>
+						<a href="https://covid-19-tracked.netlify.app/" target="_blank">
+							<button type="button" class="btn-dark">View Website</button>
+						</a>
+					</div>
+				</div>
+			</div>
 
+			<div id="myModal4" class="modal">
+				<div class="modal-content">
+					<div class="modal-info">
+						<div class="modal-header">
+							<span class="close">&times;</span>
+							<h2 class="text-secondary">iStream:</h2>
+						</div>
+						<p>
+							A Web application which focuses on the CRUD operations in
+							React/Redux. You are able to view a list of streams, create, edit,
+							delete, and also update an existing stream. I used this app as an
+							opportunity to practise using Redux for state management. It was
+							heavily focused on understanding the fundamentals of Redux and how
+							state management works.
+							<br />
+							<br />
+							The technologies/languages used are as followed: <br />
+							- HTML. <br />
+							- CSS. <br />
+							- JavaScript. <br />
+							- JSX <br />
+							- React/Redux <br />
+							- SemanticUI <br />
+							- Axios <br />
+							- Flv.js <br />
+							- Node.js <br />
+							- VSCode. <br />
+							<br />
+						</p>
+						<a href="https://istream.netlify.app/" target="_blank">
+							<button type="button" class="btn-dark">View Website</button>
+						</a>
+					</div>
+				</div>
+			</div>
 
-                    <p>
-                        This is my personal portfolio, which was designed and
-                        developed by myself. I used various different tools to create
-                        the final product. <br />
-                        <br />
-                        The technologies/languages used are as followed: <br />
-                        - HTML. <br />
-                        - CSS. <br />
-                        - SCSS. <br />
-                        - JavaScript. <br />
-                        - Moqups (Online Mockup, Wireframe and UI Prototyping Tool).
-                        <br />
-                        - VSCode. <br />
-                        - Photoshop. <br />
-                        <br />
-                        This website was developed after the completion of 'Responsive
-                        Web Design', 'JavaScript Algorithms' and 'Front-End Libraries'
-                        units in FreeCodeCamp. I decided to put my knowledge of HTML,
-                        CSS and JavaScript to the test and my end product is the
-                        website you're currently browsing. My portfolio website has recently been updated, incorporating
-                        SASS workflow, allowing to keep things more organised and creating style sheets much more
-                        efficiently.
+			<div id="myModal5" class="modal">
+				<div class="modal-content">
+					<div class="modal-info">
+						<div class="modal-header">
+							<span class="close">&times;</span>
+							<h2 class="text-secondary">Beach Resort:</h2>
+						</div>
+						<p>
+							A Web application developed via React. After completing 2 previous
+							projects in React, I wanted a better grasp of how components work
+							in React as well as an alternative to Redux for state management.
+							This project portrays my current skill set in React. You are able
+							to filter rooms by different search parameters, from price to the
+							exact room size needed. The main goal in creating this project was
+							to get an in depth understanding of React, especially the Context
+							API - how it manages global application state in the React app.
+							<br />
+							<br />
+							Furthermore, in order to get the project live, Contentful was
+							used. This allowed me to easily create, manage and publish content
+							to my live website. I chose this route because it was less time
+							consuming compared to wiring up my own backend in order to manage
+							the content. Contentful made the whole process of publishing my
+							website with any updates much more time efficient.
+							<br />
+							<br />
+							The technologies/languages used are as followed: <br />
+							- HTML. <br />
+							- CSS. <br />
+							- JavaScript. <br />
+							- JSX <br />
+							- React - Context API <br />
+							- Styled Components <br />
+							- Node.js <br />
+							- VSCode. <br />
+							<br />
+						</p>
+						<a href="https://beachresortworld.netlify.app/" target="_blank">
+							<button type="button" class="btn-dark">View Website</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</main>
 
-                    </p>
-                    <a href="https://ehsaanali.co.uk/" target="_blank">
-                        <button type="button" class="btn-dark">View Website</button>
-                    </a>
+		<footer id="main-footer">
+			Copyright &copy; Ehsaan Ali 2020.
+		</footer>
 
-                </div>
-            </div>
-        </div>
-
-        <div id="myModal2" class="modal">
-            <div class="modal-content">
-                <div class="modal-info">
-                    <div class="modal-header">
-                        <span class="close">&times;</span>
-                        <h2 class="text-secondary">Tru Burger: </h2>
-                    </div>
-                    <p>
-                        This is a website that I designed as a revamp for Tru Burger's
-                        existing website. I chose this specific website because I
-                        often go here to eat, familiar with the staff and etc;
-                        therefore, I felt like it would be the most appropriate
-                        website to remake. <br />
-                        <br />
-                        The technologies/languages used are as followed: <br />
-                        - HTML. <br />
-                        - CSS. <br />
-                        - JavaScript. <br />
-                        - Moqups (Online Mockup, Wireframe and UI Prototyping Tool).
-                        <br />
-                        - VSCode. <br />
-                        - Photoshop. <br />
-                        <br />
-                    </p>
-                    <a href="https://truburger.netlify.app/" target="_blank">
-                        <button type="button" class="btn-dark">View Website</button>
-                    </a>
-
-                </div>
-            </div>
-        </div>
-
-        <!-- <div id="myModal3" class="modal">
-            <div class="modal-content">
-                <div class="modal-info">
-                    <div class="modal-header">
-                        <span class="close">&times;</span>
-                        <h2 class="text-secondary">Heavenly Dates: </h2>
-                    </div>
-                    <p>
-                        This is a website that I had designed and developed from scratch. It was developed for an online
-                        business who wanted users to view their products and then place any orders via their instagram
-                        account. Any future changes, such as E-Commerce customisation will be updated to the website.
-                        <br />
-                        <br />
-                        The technologies/languages used are as followed: <br />
-                        - HTML. <br />
-                        - CSS. <br />
-                        - JavaScript. <br />
-                        - InVision Studio.
-                        <br />
-                        - VSCode. <br />
-                        - Photoshop. <br />
-                        <br />
-                    </p>
-                    <a href="https://heavenlydates.netlify.app/" target="_blank">
-                        <button type="button" class="btn-dark">View Website</button>
-                    </a>
-
-                </div>
-            </div>
-        </div> -->
-
-        <div id="myModal4" class="modal">
-            <div class="modal-content">
-                <div class="modal-info">
-                    <div class="modal-header">
-                        <span class="close">&times;</span>
-                        <h2 class="text-secondary">COVID-19 Tracker: </h2>
-                    </div>
-                    <p>
-                        After completing the FreeCodeCamp units on React, I decided to create an application in React
-                        which tracked all the Covid-19 cases, including: people infected, people recovered and deaths
-                        occuring from covid-19. This app uses information from an api I found online, converting it
-                        from JSON format to readable data, which is displayed as a graph. Alot of features from React
-                        had been used, such as React Hooks i.e. useState, useEffect and etc.
-                        <br />
-                        <br />
-                        The technologies/languages used are as followed: <br />
-                        - HTML. <br />
-                        - CSS. <br />
-                        - JavaScript. <br />
-                        - JSX <br />
-                        - React <br />
-                        - MaterialUI <br />
-                        - Axios <br />
-                        - ChartJs <br />
-                        - VSCode. <br />
-                        <br />
-                    </p>
-                    <a href="https://covid-19-tracked.netlify.app/" target="_blank">
-                        <button type="button" class="btn-dark">View Website</button>
-                    </a>
-
-                </div>
-            </div>
-        </div>
-
-        <div id="myModal5" class="modal">
-            <div class="modal-content">
-                <div class="modal-info">
-                    <div class="modal-header">
-                        <span class="close">&times;</span>
-                        <h2 class="text-secondary">iStream: </h2>
-                    </div>
-                    <p>
-                        A Web application which focuses on the CRUD operations in React/Redux. You are able to view a
-                        list of streams, create, edit, delete, and also update an existing stream. I used this app as an
-                        opportunity to practise using Redux for state management. It was heavily focused on
-                        understanding the fundamentals of Redux and how state management works.
-                        <br />
-                        <br />
-                        The technologies/languages used are as followed: <br />
-                        - HTML. <br />
-                        - CSS. <br />
-                        - JavaScript. <br />
-                        - JSX <br />
-                        - React/Redux <br />
-                        - SemanticUI <br />
-                        - Axios <br />
-                        - Flv.js <br />
-                        - Node.js <br />
-                        - VSCode. <br />
-                        <br />
-                    </p>
-                    <a href="https://istream.netlify.app/" target="_blank">
-                        <button type="button" class="btn-dark">View Website</button>
-                    </a>
-
-                </div>
-            </div>
-        </div>
-
-
-    </main>
-
-    <footer id="main-footer">
-        Copyright &copy; Ehsaan Ali 2020.
-    </footer>
-
-    <script src="js/main.js"></script>
-</body>
-
+		<script src="js/main.js"></script>
+	</body>
 </html>
