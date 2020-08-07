@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import "config";
-@import "menu";
+@import 'config';
+@import 'menu';
 
 * {
     box-sizing: border-box;
@@ -78,8 +78,7 @@ main {
 .about-info {
     display: grid;
     grid-gap: 30px;
-    grid-template-areas:
-        'bio-image bio bio';
+    grid-template-areas: 'bio-image bio bio';
     grid-template-columns: repeat(3, 1fr);
 
     .bio-image {
@@ -149,6 +148,9 @@ main {
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
 
+    &::-webkit-scrollbar {
+        display: none;
+    }
 
     &-content {
         background-color: #fff;
@@ -170,7 +172,6 @@ main {
                 text-decoration: none;
                 cursor: pointer;
                 @include easeOut;
-
             }
         }
 
@@ -187,7 +188,6 @@ main {
                 color: set-text-color($secondary-color);
             }
         }
-
     }
 }
 
@@ -304,4 +304,4 @@ main {
     height: 60px;
 }
 
-@import "mobile";
+@import 'mobile';

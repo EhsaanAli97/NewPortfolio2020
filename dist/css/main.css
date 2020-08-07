@@ -212,6 +212,8 @@ main {
   overflow: auto;
   background-color: black;
   background-color: rgba(0, 0, 0, 0.4); }
+  .modal::-webkit-scrollbar {
+    display: none; }
   .modal-content {
     background-color: #fff;
     margin: auto;
